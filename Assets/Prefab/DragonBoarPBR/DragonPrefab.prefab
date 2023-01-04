@@ -934,7 +934,7 @@ GameObject:
   - component: {fileID: 409254}
   - component: {fileID: 9562442}
   m_Layer: 0
-  m_Name: RedBoarPBR
+  m_Name: DragonPrefab
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
