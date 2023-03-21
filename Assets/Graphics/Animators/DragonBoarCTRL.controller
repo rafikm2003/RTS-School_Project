@@ -108,7 +108,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Idle
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: -7063850035062872866}
@@ -152,7 +152,7 @@ AnimatorController:
     m_Type: 4
     m_DefaultFloat: 0
     m_DefaultInt: 0
-    m_DefaultBool: 0
+    m_DefaultBool: 1
     m_Controller: {fileID: 0}
   - m_Name: Speed
     m_Type: 1
@@ -254,8 +254,16 @@ BlendTree:
     m_DirectBlendParameter: Speed
     m_Mirror: 0
   - serializedVersion: 2
-    m_Motion: {fileID: 7400000, guid: 7a581f461b6ceb9499f20f4b5c6c5eb3, type: 3}
+    m_Motion: {fileID: 7400000, guid: ba667ec2e0a066e4581602e6bb318e93, type: 3}
     m_Threshold: 3
+    m_Position: {x: 0, y: 0}
+    m_TimeScale: 1
+    m_CycleOffset: 0
+    m_DirectBlendParameter: Speed
+    m_Mirror: 0
+  - serializedVersion: 2
+    m_Motion: {fileID: 7400000, guid: 7a581f461b6ceb9499f20f4b5c6c5eb3, type: 3}
+    m_Threshold: 6
     m_Position: {x: 0, y: 0}
     m_TimeScale: 1
     m_CycleOffset: 0
@@ -264,7 +272,7 @@ BlendTree:
   m_BlendParameter: Speed
   m_BlendParameterY: Speed
   m_MinThreshold: 0.5
-  m_MaxThreshold: 3
+  m_MaxThreshold: 6
   m_UseAutomaticThresholds: 0
   m_NormalizedBlendValues: 0
   m_BlendType: 0
@@ -349,7 +357,7 @@ AnimatorState:
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
   m_Name: Move
-  m_Speed: 1
+  m_Speed: 1.5
   m_CycleOffset: 0
   m_Transitions:
   - {fileID: 5346847486194907637}
@@ -389,7 +397,7 @@ AnimatorState:
   m_MirrorParameterActive: 0
   m_CycleOffsetParameterActive: 0
   m_TimeParameterActive: 0
-  m_Motion: {fileID: 7400000, guid: 32a0ee0b51a0b0045ab626823132a09e, type: 3}
+  m_Motion: {fileID: 7400000, guid: ec5fe9238044cc04880ef9e08ce9268f, type: 2}
   m_Tag: 
   m_SpeedParameter: 
   m_MirrorParameter: 
